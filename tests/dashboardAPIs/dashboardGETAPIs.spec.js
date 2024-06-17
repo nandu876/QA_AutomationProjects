@@ -2,7 +2,7 @@
 const { test, expect } = require('@playwright/test');
 
 // Define common variables
-const apiUrl = 'https://v3h2dw9k-8010.inc1.devtunnels.ms/api';
+const apiUrl = 'https://v3h2dw9k-8040.inc1.devtunnels.ms/api';
 const authToken = 'a584efb462f4199e922b116705799ae2a684663c';
 
 // Set up common headers
@@ -16,35 +16,7 @@ test.beforeEach(async () => {
     };
 });
 
-// Test for POST request
-// test('POST request to an API login endpoint', async ({ request }) => {
-//     const postData = {
-//         "username": "sayim",
-//         "password": "sayim"
-//     };
 
-//     const response = await request.post(`${apiUrl}/admin-login`, {
-//         headers,
-//         data: postData
-//     });
-
-//     // Check for successful response (status code 200)
-//     expect(response.status()).toBe(200);
-
-//     let statusCode = response.status();
-//     if (statusCode === 200) {
-//         console.log("POST /admin-login is ok");
-//     } else {
-//         console.log("POST /admin-login is not ok");
-//     }
-
-//     // Check for the content type to be 'application/json'
-//     expect(response.headers()['content-type']).toContain('application/json');
-
-//     // Parse and log the JSON response
-//     const data = await response.json();
-//     console.log(data);
-// });
 
 // Test for GET request
 

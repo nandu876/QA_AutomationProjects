@@ -2,8 +2,8 @@
 const { test, expect } = require('@playwright/test');
 
 // Define common variables
-const apiUrl = 'https://v3h2dw9k-8010.inc1.devtunnels.ms/api';
-const authToken = '48b1a03635d6bb298ab53d435253fa02d3b20997';
+const apiUrl = 'https://v3h2dw9k-8000.inc1.devtunnels.ms/api';
+const authToken = 'fd7c70b95471a1386f7cc3a31dc4194446e531c3';
 
 // Set up common headers
 let headers;
